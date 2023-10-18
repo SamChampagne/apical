@@ -18,7 +18,7 @@
     <div class="logo-container">
         <div class="logo">  
             <a href="https://apical.xyz">
-                <img src="https://apical.xyz/medias/fr/LogoApical-blanc.svg" alt="Logo">
+                <img src="https://apical.xyz/medias/fr/LogoApical-blanc.svg" alt="Logo" width="340px">
             </a>
         </div>
         <div class="icons">
@@ -37,7 +37,9 @@
     <!-- formulaire -->
     <div id="login-form" class="login-form" style="display: none;">
         <form>
+            <label class="utilisateur"> utilisateur </label>
             <input type="text" placeholder="Utilisateur">
+            <label class="mot-de-passe"> mot de passe </label>
             <input type="password" placeholder="Mot de passe">
             <label for="remember">Rester connecté</label>
             <input type="checkbox" id="remember">
