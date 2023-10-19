@@ -38,7 +38,8 @@ body{
 
 /* La bar de navigation et les menu */
 .pages{
-    padding: 10px;
+    padding: 10px;  
+    color: #585656;
 }
 .bar-navig {
     display: flex;
@@ -458,6 +459,7 @@ ul{
     font-size: 20px;
     font-weight: 500;
     font-family: Raleway, sans-serif;
+    color: #333;
 
 }
 

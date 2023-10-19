@@ -36,6 +36,7 @@
                     <div class="info-footer">Conception et développement de la plateforme : <span class="credit"><a href="" target="_blank">Christiane Lagacé</a></span></div>
                 </div>
             </div>
+            <br>
                 <!-- contacter -->
             <div class="container_footer">
                 <div class="row">
