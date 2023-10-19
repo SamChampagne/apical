@@ -9,12 +9,12 @@
         <div class="pub">
 
             <p>Site fièrement hébergé chez <a href="http://www.a2hosting.com?aid=5ca65a17be949" target="_top" id="hosting">A2 Hosting</a>.</p>
-            <p>
-                <a href="https://www.a2hosting.com?aid=5ca65a17be949&amp;bid=ed1c4a67" target="_top">
-                    <img src="//affiliates.a2hosting.com/accounts/default1/banners/ed1c4a67.jpg" width="728" height="90" />
-                </a>
-                    <img style="border:0" src="https://affiliates.a2hosting.com/scripts/imp.php?aid=5ca65a17be949&amp;bid=ed1c4a67" width="1" height="1"/>
-            </p>
+            
+
+            <!-- image publicités sur le site apical  -->
+            <img style="border: 0px;" src="https://affiliates.a2hosting.com/scripts/imp.php?aid=5ca65a17be949&amp;bid=ed1c4a67" width="1" height="1" alt="">
+                    
+            
         </div>
     </div>
 </div>

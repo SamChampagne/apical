@@ -172,7 +172,9 @@ body{
 
 
 /* index et contenu*/
-
+.message_404{
+    text-align: left;
+}
 .contenu_principale_404{
     display: flex;
     justify-content: center;
@@ -370,9 +372,9 @@ ul{
     width: 1000px;
 }
 
-hr{
-    margin-top: 10px;
-    margin-bottom: 20px;
+.hr-contenu{
+    width: 21%;
+    border-top: 1px solid black;
 }
 
 #container_footer_principale{
@@ -449,5 +451,11 @@ hr{
 }
 .info-footer{
     text-align: center;
+}
+.titre-posts{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+
 }
 /*------------------- Footer Fin -------------------*/
