@@ -36,16 +36,16 @@
 
     <!-- formulaire -->
     <div id="login-form" class="login-form" style="display: none;">
-        <form>
-            <label class="utilisateur"> utilisateur </label>
-            <input type="text" placeholder="Utilisateur">
-            <label class="mot-de-passe"> mot de passe </label>
-            <input type="password" placeholder="Mot de passe">
-            <label for="remember">Rester connecté</label>
-            <input type="checkbox" id="remember">
-            <button type="submit">Se connecter</button>
-            <a href="#" id="close-form">Fermer</a>
-        </form>
+    <form method="post" action="<?php echo esc_url(site_url('wp-login.php', 'login_post')); ?>">
+        <label for="user_login">Utilisateur</label>
+        <input type="text" name="log" id="user_login" placeholder="Utilisateur">
+        <label for="user_pass">Mot de passe</label>
+        <input type="password" name="pwd" id="user_pass" placeholder="Mot de passe">
+        <label for="remember">Rester connecté</label>
+        <input type="checkbox" name="rememberme" id="remember">
+        <button type="submit">Se connecter</button>
+        <a href="#" id="close-form">Fermer</a>
+    </form>
     </div>
  
     <!-- Navigation -->

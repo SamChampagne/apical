@@ -1,8 +1,8 @@
 <?php 
     get_header();
 ?>
+<!-- page erreur 404 -->
 <div class="contenu_principale_404 ">
-
     <div class="contenu">
 
         <div class="titre">
@@ -29,7 +29,6 @@
 
 
     </div>
-
 </div>
 
 <?php 
