@@ -9,7 +9,10 @@
 
             <!-- titre -->
             <hr class="hr-contenu">
-                <p id="titre-posts">La page demandée n'existe pas</p>
+
+                <!-- j'ai mis le style dans le p ici, car problème quand je le met dans le style -->
+                <p id="titre-posts" style="font-size: 20px; font-weight: 500; font-family: Raleway, sans-serif; color: #333;">La page demandée n'existe pas</p>
+
             <hr class="hr-contenu">
 
         </div>
