@@ -37,13 +37,15 @@ body{
 
 
 /* La bar de navigation et les menu */
-
+.pages{
+    padding: 10px;
+}
 .bar-navig {
     display: flex;
     justify-content: center;
     text-align: center; /* Centrer horizontalement le contenu */
     background-color: #ffffff;
-    height: 60px;
+    height: 80px;
 }
 
 .menu{
@@ -458,4 +460,5 @@ ul{
     font-family: Raleway, sans-serif;
 
 }
+
 /*------------------- Footer Fin -------------------*/

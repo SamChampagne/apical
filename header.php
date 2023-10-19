@@ -65,7 +65,7 @@
                     
                     while ($pages_query->have_posts()) {
                         $pages_query->the_post();
-                        echo '<li><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>';
+                        echo '<li class="pages"><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>';
                     }
                     
 
